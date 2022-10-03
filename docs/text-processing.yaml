@@ -1,0 +1,16 @@
+tags:
+  - name: Query Example
+get:
+  description: Input text
+parameters:
+  - name: add_text
+    in: query
+    required: true
+    type: string
+responses:
+  '200':
+    description: Successful response
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error
